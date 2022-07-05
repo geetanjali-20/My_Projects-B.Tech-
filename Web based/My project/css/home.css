@@ -1,0 +1,74 @@
+header{
+	background-image: linear-gradient(green, yellow);
+    overflow: auto;
+}
+h1{
+	font-size: 2.8em;
+	color: #00d7d7;
+	text-align: center;
+}
+ nav a {
+	box-sizing: border-box;
+	font-size: 30px;
+	text-align: center;
+	text-decoration: none;
+	width: 70px;
+	height: 40px;
+	margin: 1%;
+	margin-right: 6%;
+	padding: 1%;
+	border-radius: 15px;
+	background-color: #e7e700;
+
+}
+nav a:first-child {
+	margin-left: 10%;
+
+}
+a:hover {
+	background-color: #dd0000;
+	background-image: linear-gradient(red, yellow);
+
+}
+.current{
+	background-color: #ffffff;
+	border-radius: 25px;
+
+
+}
+.link{
+	float: right;
+	display: inline-block;
+	text-decoration: none;
+	color: #c7c700;
+	font-size: 20px;
+
+}
+section{
+	background-color: yellow;
+}
+
+.left{
+	
+	width: 35%;
+	height: 50%;
+    float: left;
+    padding: 2% 0;
+    margin: 2%;
+
+}
+
+.right{
+	
+	width: 58%;
+	display: inline-block;
+	margin-top: 4%;
+
+}
+
+p{
+	display: inline-block;
+	float: left;
+	font-family: "comic sans ms";
+
+}

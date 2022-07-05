@@ -1,0 +1,113 @@
+header {
+	background-image: url("bg.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 180px;
+	margin: 0%;
+	padding: 0.5%;
+	}
+nav a{
+	box-sizing: border-box;
+	text-decoration: none;
+	width: 70px;
+	height: 30px;
+	margin-right: 10px;
+	border-radius: 10px;
+	text-align: center;
+	padding: 8px;
+	color: blue;
+	font-size: 20px;
+	float: left;
+	background-color: transparent;
+
+}
+a:hover{
+	background-image: linear-gradient(transparent,yellow);
+}
+#li{
+	float: right;
+}
+h2{
+	font-family: "comic sans ms";
+	font-size: 2.5em;
+	color: #000000;
+	text-shadow: 3px 3px 6px #e7e700;
+	margin-left: 40%;
+	text-align: center;
+	box-sizing: border-box;
+	width: 200px;
+	height: 80px;
+	padding: 5px;
+	border-radius: 30px;
+	background-color: transparent;
+
+}
+
+h2:hover{
+	background-image: linear-gradient(transparent,yellow);
+}
+	
+
+.left{
+	width:24%;
+    float: left;
+    padding: 2% 0;
+    background-image: url("new.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+    text-align: center;
+}
+.edit{
+	text-align: center;
+	box-sizing: border-box;
+	width: 150px;
+	height: 50px;
+	padding: 4px;
+	border-radius: 8px;
+	background-color: transparent;
+}
+h3:hover{
+	background-image: linear-gradient(transparent,purple);
+	color: #ffffff;
+}
+h3 {
+	clear: all;
+	margin-left: 25%;
+	margin-top: 20%;
+	font-size: 2em;
+	color: #000000;
+	text-shadow: 3px 3px 6px pink;
+	font-style: oblique;
+}
+section img{
+	margin: 2%;
+	padding: 3%;
+	text-align: center;
+}
+
+.gallery{
+	
+	width: 70%;
+	display: inline-block;
+	background-color: #ff0000;
+	padding-left: 2%;
+	margin: 5px;
+	margin-right: 0px;
+}
+
+figure img{
+	width: 10%;
+	height: auto;
+	margin: 10px;
+	padding: 20px;
+
+}
+
+.gallery:hover {
+  border: 1px solid #777;
+}
+figcaption.desc {
+  padding: 15px;
+  text-align: center;
+}
+

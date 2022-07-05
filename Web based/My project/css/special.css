@@ -1,0 +1,60 @@
+header{
+	background-image: linear-gradient(green, yellow);
+    height: 180px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+	padding: 0.5px;
+}
+h1{
+	font-size: 2.8em;
+	color: #00d7d7;
+	text-align: center;
+}
+ nav a {
+	box-sizing: border-box;
+	font-size: 30px;
+	text-align: center;
+	text-decoration: none;
+	width: 70px;
+	height: 40px;
+	margin: 1%;
+	margin-right: 6%;
+	padding: 1%;
+	border-radius: 15px;
+	background-color: #e7e700;
+
+}
+nav a:first-child {
+	margin-left: 10%;
+
+}
+a:hover {
+	background-image: linear-gradient(red, yellow);
+
+}
+.current{
+	background-color: #ffffff;
+	border-radius: 25px;
+}
+div a{
+	box-sizing: border-box;
+	text-decoration: none;
+	width: 70px;
+	height: 30px;
+	margin-right: 10px;
+	border-radius: 10px;
+	text-align: center;
+	padding: 8px;
+	color: blue;
+	font-size: 20px;
+	float: left;
+	background-color: transparent;
+
+}
+div a:hover{
+	background-image: linear-gradient(transparent,yellow);
+}
+#li{
+	float: right;
+}
+

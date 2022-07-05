@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Form</title>
+	<meta charset="utf-8">
+	<style type="text/css">
+	fieldset{
+		background-color: #00bfff;
+		/*background: linear-gradient(to bottom, #66cc55 0%, #ff3366 100%);*/
+		height: 200%;
+		width: 80%;
+
+		font-size: 100%;
+
+	}
+	legend{
+		
+		font-style: oblique;
+		font-family: "Vardana","Arial";
+	}	
+	label{
+		padding: 30%;
+		padding-left: 0px;
+	}
+	input[type=text], input[type=email], input[type=number] , input[type=tel] ,input[type=file],input[type=date],input[type=password]{
+	 width: 30%;
+	 padding: 6px 12px;
+	 margin: 5px 0;
+	 box-sizing: border-box;
+	}
+	input[type=submit], input[type=reset]{
+	 width: 15%;
+	 padding: 8px 12px;
+	 margin: 5px 0;
+	 box-sizing: border-box;
+	}
+	
+	</style>
+</head>
+<body>
+	<h2><center> Registration Form</center></h2>
+	<form>
+		<fieldset>
+			<legend>Personal info</legend>
+			<label>Name: <input type="text" name="name"></label><br>
+			<label>DOB: <input type="date" name="birth"></label><br>
+		    <label>Father's Name: <input type="text" name="name"></label><br>
+			<label>Mother's Name: <input type="text" name="name"></label><br>
+			<label>Mobile no.: <input type="tel" name="mobile no." pattern="[0,9]"></label><br>
+			Gender: <input type="radio" name="Gender" value="Male">Male
+				<input type="radio" name="Gender" value="Female">Female
+				<input type="radio" name="Gender" value="Other">Other
+			<br>
+			<label>Email: <input type="email" name="email"></label><br>
+			<label for="psw">Password
+			 <input type="password" placeholder="Enter Password" name="psw" required></label><br>
+
+			 <label for="psw-repeat">Re-type Password
+			 <input type="password" placeholder="Retype Password" name="psw-repeat" required></label>
+			<br>
+			<label>
+			Course
+			
+			<select>
+			<option value="Course">Course</option>
+			<option value="BCA">BCA</option>
+			<option value="BBA">BBA</option>
+			<option value="B.Tech">B.Tech</option>
+			<option value="MBA">MBA</option>
+			<option value="MCA">MCA</option>
+			<option value="M.Tech">M.Tech</option>
+			</select> 
+			</label>
+		    <br><br>
+		    City: <select name="city">
+		     	<option value="GHAZIABAD" checked="true">GHAZIABAD</option>
+				<option value="NOIDA">NOIDA</option>
+				<option value="GREATER NOIDA">GREATER NOIDA</option>
+				<option value="DELHI">DELHI</option>
+				<option value="MERRUT">MERRUT</option>
+				<option value="FARIDABAD">FARIDABAD</option>
+			</select><br><br>
+			
+            Choose file <input type="file" name="files">
+            <br>
+            <input type="submit" value="Submit">
+			<input type="reset" value="Reset">
+
+        </fieldset>
+	</form>
+
+</body>
+</html>
